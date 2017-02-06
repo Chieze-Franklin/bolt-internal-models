@@ -1,7 +1,8 @@
 {
   "name": "bolt-internal-models",
   "description": "internal module that defines the Bolt models",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "main": "models.js",
   "author": {
     "name": "Chieze Franklin",
     "email": "chieze.franklin@gmail.com",
@@ -18,7 +19,7 @@
   "files": [
     "LICENSE",
     "README.md",
-    "index.js"
+    "models.js"
   ],
   "bugs": {
     "url": "https://github.com/Chieze-Franklin/bolt-internal-models/issues"

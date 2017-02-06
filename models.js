@@ -9,6 +9,7 @@ var appUserAssocModel = mongoose.model('AppUserAssoc', schemata.appUserAssoc);
 var boltSecretModel = mongoose.model('BoltSecret', schemata.boltSecret);
 var collectionModel = mongoose.model('Collection', schemata.collection);
 var extensionModel = mongoose.model('Extension', schemata.extension);
+var hookModel = mongoose.model('Hook', schemata.hook);
 var roleModel = mongoose.model('Role', schemata.role);
 var routerModel = mongoose.model('Router', schemata.router);
 var userModel = mongoose.model('User', schemata.user);
@@ -21,6 +22,7 @@ module.exports = {
 	boltSecret : boltSecretModel,
 	collection: collectionModel,
 	extension: extensionModel,
+	hook: hookModel,
 	role : roleModel,
 	router: routerModel,
 	user : userModel,
