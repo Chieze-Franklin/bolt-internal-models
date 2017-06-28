@@ -1,7 +1,7 @@
 {
   "name": "bolt-internal-models",
   "description": "internal module that defines the Bolt models",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "models.js",
   "author": {
     "name": "Chieze Franklin",
